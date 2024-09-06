@@ -25,12 +25,12 @@ int main () {
                 if( i > number ) {
                     if ( i < max ) {
                         max = i - 1 ;
-                    }
+                    }//end if
                     printf( "Sorry, the winning number is LOWER than %d (Score = %d)\n\n", i, score -= 10 ) ;
                 } else {
                     if ( i > min ) {
                         min = i + 1 ;
-                    }
+                    }//end if
                     printf( "Sorry, the winning number is HIGHER than %d (Score = %d)\n\n", i, score -= 10 ) ;
                 }//end if else
 
